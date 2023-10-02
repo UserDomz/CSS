@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Cheatsheet</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <div id="about">
+        <div class="containter">
+            <div class="row">
+                <div class="about-col-1"> <img src="images/user.png"></div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Odit maxime, tenetur enim consectetur dolorem nostrum deserunt 
+                        nihil ad explicabo, labore accusamus corrupti animi adipisci 
+                        perferendis provident expedita tempora autem eius facere 
+                        dignissimos? Expedita illum nostrum quibusdam suscipit veniam 
+                        quia inventore velit laborum quam, quis modi? Quod ipsam hic 
+                        quam quia.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Contacts</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Contact</span><br>+63905-395-9863</li>
+                                <li><span>Email Address</span><br>d.uc.acct01@gmail.com</li>
+                                <li><span>Current Address</span><br>888 Upper Linao Lipata Minglanilla, Cebu, Ph.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023 Current</span><br>UI/UX Design Trainer at RipeConcepts, Inc. </li>
+                                <li><span>2019 - 2023</span><br>Team Lead at Accenture, Inc.</li>
+                                <li><span>2017 - 2019</span><br>Internship at Lexmark International, Inc.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2005</span><br>BSIT at University of Cebu  </li>
+                                <li><span>2001</span><br>HS at University of San Jose-Recoletos.</li>
+                                <li><span>1996</span><br>Primary Minglanilla Central School</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ---------- My Favorite Foods ---------- -->
+<div id="foods">
+    <div class="container">
+        <h1 class="sub-title">My Favorite Foods</h1>
+        <div class="foods-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Tortang Itlog</h2>
+                <img src="images/tortang-itlog.jpg" alt="tortang-itlog">
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Crispy Fried Chicken</h2>
+                <img src="images/crispy-chicken.png" alt="crispy-chicken">
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-circle-nodes"></i>
+                <h2>Grilled Beef Steak</h2>
+                <img src="images/Grilled Beef Steak.jpg" alt="Grilled Beef Steak">
+                    <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------- Ingredient Recipes ---------- -->
+<div id="recipes">
+    <div class="container">
+        <h2 class="sub-title">Recipes</h2>
+        <div class="recipes-list">
+            <div class="recipes">
+                <img src="images/tortang-itlog.jpg">
+                <div class="layer">
+                    <h3>Tortang Itlog</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, quisquam dignissimos! Iure veritatis assumenda quisquam placeat qui eum sapiente eos soluta aliquid architecto odio molestiae delectus non laboriosam autem nostrum labore quae ipsum, aliquam exercitationem? Nam cupiditate odio ea voluptate et dolores ipsam nostrum. Molestiae porro est illum culpa dolore.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="recipes">
+                <img src="images/crispy-chicken.png">
+                <div class="layer">
+                    <h3>Crispy Fried Chicken</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius in cupiditate ipsam nisi illum. Ad fugiat ipsum nulla? Aliquam ipsum, quasi aliquid cumque, explicabo voluptatibus porro dolorum amet error tempora ab, saepe enim. Temporibus, cumque quisquam voluptatibus, voluptatum maxime porro quis labore eaque recusandae magni corporis. Deserunt saepe quam deleniti?</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="recipes">
+                <img src="images/Grilled Beef Steak.jpg">
+                <div class="layer">
+                    <h3>Grilled Beef Steak</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores quae quibusdam reprehenderit beatae vitae? Magni quo optio quod consequatur veniam, nesciunt maiores quas, illo maxime iure recusandae voluptatem quae tempore repudiandae reiciendis. Voluptates laborum fugiat distinctio culpa error sed, necessitatibus omnis rerum aperiam! Voluptatum, cumque aut nisi fugit et maxime.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+</body>
+</html>
